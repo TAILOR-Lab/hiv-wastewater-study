@@ -9,7 +9,7 @@ This repository contains the code, data, and analysis pipelines for:
 **Status**: *Under review at Nature Communications*
 
 This codebase is under active development and may change over time.
-Please refer to the tagged release `v1.0preprint` for the exact version used in the manuscript.
+Please refer to the tagged release [`v1.0preprint`](https://github.com/TAILOR-Lab/hiv-wastewater-study/releases/tag/v1.0preprint) for the exact version used in the manuscript.
 
 We introduce a wastewater-based sequencing platform for HIV-1, enabling the detection of both authentic circulating virus and synthetic lentiviral vector sequences across Texas municipalities. The project integrates computational pipelines, phylogenetic tools, and visualizations to validate, classify, and contextualize HIV-1 reads in wastewater.
 
@@ -95,3 +95,7 @@ Contact
 -------
 Author: Justin R. Clark, Ph.D.  
 Lab: TAILΦR Labs, Baylor College of Medicine
+
+License
+-------
+This repository is released under the MIT License. See [`LICENSE`](LICENSE) for details.
