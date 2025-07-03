@@ -21,8 +21,7 @@ hiv-wastewater-study/
 ├── process_reads_pipeline/     # Classify wastewater reads as circulating or non-circulating HIV
 ├── build_phylogeny_pipeline/   # Reference-based HIV tree + read count iTOL annotations
 ├── dot_plot_pipeline/          # Weekly detection plots across anonymized cities/sites
-├── coverage_maps/              # Coverage map plots with genome features and read stacks
-└── scripts/                    # Shared helper scripts
+└── coverage_maps/              # Coverage map plots with genome features and read stacks
 ```
 **1. Simulated Reads**
 ------------------
@@ -34,7 +33,7 @@ Contains synthetic HIV-1 FASTQ files simulated using BBMap, including three circ
 -------------------------
 **Folder**: *process_reads_pipeline/*
 
-Classifies wastewater reads by competitively mapped to curated reference sets:
+Classifies competitively mapped wastewater reads to curated reference genome datasets:
 - Circulating HIV-1
 - Non-circulating HIV-1 molecular clones
 
